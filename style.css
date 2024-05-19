@@ -1,0 +1,178 @@
+/* Основные стили для темной темы */
+body.dark-theme {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #121212;
+    color: #e0e0e0;
+}
+
+body.dark-theme .head {
+    background-color: #1e1e1e;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+    margin-bottom: 20px;
+}
+
+body.dark-theme .head h1 {
+    margin: 0;
+    font-size: 2em;
+    color: #76c7c0;
+}
+
+body.dark-theme .head p {
+    font-size: 1em;
+    line-height: 1.6;
+    margin: 10px 0;
+}
+
+body.dark-theme .head p strong {
+    color: #76c7c0;
+}
+
+body.dark-theme .head ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 20px 0;
+}
+
+body.dark-theme .head ul li {
+    background-color: #76c7c0;
+    margin-bottom: 50px;
+    color: #121212;
+    padding: 10px;
+    margin: 5px 0;
+    border-radius: 5px;
+    display: inline-block;
+}
+
+body.dark-theme a {
+    color: #76c7c0;
+    text-decoration: none;
+}
+
+body.dark-theme a:hover {
+    text-decoration: underline;
+}
+
+/* Основные стили для светлой темы */
+body.light-theme {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    margin-bottom: 50px;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+body.light-theme .head {
+    background-color: #fff;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+}
+
+body.light-theme .head h1 {
+    margin: 0;
+    font-size: 2em;
+    color: #0073e6;
+}
+
+body.light-theme .head p {
+    font-size: 1em;
+    line-height: 1.6;
+    margin: 10px 0;
+}
+
+body.light-theme .head p strong {
+    color: #0073e6;
+}
+
+body.light-theme .head ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 20px 0;
+}
+
+body.light-theme .head ul li {
+    background-color: #0073e6;
+    color: #fff;
+    padding: 10px;
+    margin: 5px 0;
+    border-radius: 5px;
+    display: inline-block;
+}
+
+body.light-theme a {
+    color: #0073e6;
+    text-decoration: none;
+}
+
+body.light-theme a:hover {
+    text-decoration: underline;
+}
+
+/* Стили для кнопки переключения темы */
+#theme-toggle {
+    padding: 10px 20px;
+    margin-top: 20px;
+    background-color: #0073e6;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#theme-toggle:hover {
+    background-color: #005bb5;
+}
+
+/* Стили для логотипа */
+.head img {
+    max-width: 100px;
+    height: auto;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+/* Стили для кнопок-ссылок */
+.button-links {
+    margin-top: 20px;
+}
+
+.button-link {
+    display: inline-block;
+    padding: 10px 20px;
+    margin: 5px;
+    background-color: #0073e6;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.button-link:hover {
+    background-color: #005bb5;
+}
+
+/* Стили для кнопок-ссылок в светлой теме */
+body.light-theme .button-link {
+    background-color: #0073e6;
+    color: #fff;
+}
+
+body.light-theme .button-link:hover {
+    background-color: #005bb5;
+}
+
+/* Стили для кнопок-ссылок в темной теме */
+body.dark-theme .button-link {
+    background-color: #76c7c0;
+    color: #121212;
+}
+
+body.dark-theme .button-link:hover {
+    background-color: #5bb2a1;
+}
