@@ -7,37 +7,42 @@ body.dark-theme {
     color: #e0e0e0;
 }
 
-body.dark-theme .head {
+.container {
+    padding: 20px;
+}
+
+body.dark-theme .head, body.dark-theme .other-news {
     background-color: #1e1e1e;
     padding: 20px;
     text-align: center;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
     margin-bottom: 20px;
+    border-radius: 10px;
 }
 
-body.dark-theme .head h1 {
+body.dark-theme .head h1, body.dark-theme .other-news h1 {
     margin: 0;
     font-size: 2em;
     color: #76c7c0;
 }
 
-body.dark-theme .head p {
+body.dark-theme .head p, body.dark-theme .other-news p {
     font-size: 1em;
     line-height: 1.6;
     margin: 10px 0;
 }
 
-body.dark-theme .head p strong {
+body.dark-theme .head p strong, body.dark-theme .other-news p strong {
     color: #76c7c0;
 }
 
-body.dark-theme .head ul {
+body.dark-theme .head ul, body.dark-theme .other-news ul {
     list-style-type: none;
     padding: 0;
     margin: 20px 0;
 }
 
-body.dark-theme .head ul li {
+body.dark-theme .head ul li, body.dark-theme .other-news ul li {
     background-color: #76c7c0;
     margin-bottom: 50px;
     color: #121212;
@@ -66,37 +71,38 @@ body.light-theme {
     color: #333;
 }
 
-body.light-theme .head {
+body.light-theme .head, body.light-theme .other-news {
     background-color: #fff;
     padding: 20px;
     text-align: center;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     margin-bottom: 20px;
+    border-radius: 10px;
 }
 
-body.light-theme .head h1 {
+body.light-theme .head h1, body.light-theme .other-news h1 {
     margin: 0;
     font-size: 2em;
     color: #0073e6;
 }
 
-body.light-theme .head p {
+body.light-theme .head p, body.light-theme .other-news p {
     font-size: 1em;
     line-height: 1.6;
     margin: 10px 0;
 }
 
-body.light-theme .head p strong {
+body.light-theme .head p strong, body.light-theme .other-news p strong {
     color: #0073e6;
 }
 
-body.light-theme .head ul {
+body.light-theme .head ul, body.light-theme .other-news ul {
     list-style-type: none;
     padding: 0;
     margin: 20px 0;
 }
 
-body.light-theme .head ul li {
+body.light-theme .head ul li, body.light-theme .other-news ul li {
     background-color: #0073e6;
     color: #fff;
     padding: 10px;
@@ -130,7 +136,7 @@ body.light-theme a:hover {
 }
 
 /* Стили для логотипа */
-.head img {
+.head img, .other-news img {
     max-width: 100px;
     height: auto;
     margin-top: 10px;
